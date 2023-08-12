@@ -9,17 +9,17 @@ This is a test file and will be used to build other python files. I first define
 
 This is the test picture that I have used :
 
-![testMoo](.\assets\testMoo.png)
+![testMoo](./assets/testMoo.png)
 
 
 
 If I run the python file, it seems it is able to detect the image on my screen without any problems because no pixels changed.
 
-![image-20230812215150002](.\assets\image-20230812215150002.png)
+![image-20230812215150002](./assets/image-20230812215150002.png)
 
 However, If i move it up by 1 slot, it is still able to find the image, but not with 100% certainty.
 
-![image-20230812215050940](.\assets\image-20230812215050940.png)
+![image-20230812215050940](./assets/image-20230812215050940.png)
 
 
 To solve this problem we can take the template to be the inside of the image. This way, no matter where it is on the screen, feature matching would be able to find the object.
